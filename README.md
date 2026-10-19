@@ -6,7 +6,7 @@ A safe keyboard playground for toddlers (ages 1–5). Hand your little one a lap
 
 Free, no sign-up, no ads. Works best in Chrome or Edge on a laptop. Click **Start and lock screen**, then hand it over.
 
-![A big letter A next to an apple, with the word Apple](screenshots/letter.jpg)
+![A big letter A next to an apple, with the word Apple](letter.jpg)
 
 ## Why Tiny Keys exists
 
@@ -24,11 +24,11 @@ Tiny Keys turns that urge to bang on keys into something good:
 
 | | |
 | --- | --- |
-| ![Counting three ducks](screenshots/counting.jpg) | ![The cow says moo](screenshots/animal.jpg) |
+| ![Counting three ducks](counting.jpg) | ![The cow says moo](animal.jpg) |
 | **Numbers** count real things | **Space bar** brings animals |
-| ![A colored shape](screenshots/shape.jpg) | ![Veena in music mode with sargam notes](screenshots/music.jpg) |
+| ![A colored shape](shape.jpg) | ![Veena in music mode with sargam notes](music.jpg) |
 | **Other keys** show shapes and colors | **Music mode**: violin, veena, flute and more |
-| ![Start screen](screenshots/start.jpg) | ![Grown-up controls](screenshots/controls.jpg) |
+| ![Start screen](start.jpg) | ![Grown-up controls](controls.jpg) |
 | **Start** with or without the screen lock | **Grown-up controls** (hold the moon button 3 seconds) |
 
 ## What the keys do
