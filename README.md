@@ -2,7 +2,7 @@
 
 A safe keyboard playground for toddlers (ages 1–5). Hand your little one a laptop: every key they press shows a big picture, says something out loud, and plays music.
 
-## [▶ Play Tiny Keys](https://rroopha-25.github.io/Tinykeys/)
+## [▶ Play Tiny Keys](https://rroopha-25.github.io/Tiny-keys/)
 
 Free, no sign-up, no ads. Works best in Chrome or Edge on a laptop. Click **Start and lock screen**, then hand it over.
 
@@ -67,8 +67,8 @@ Also: volume, voice on/off, **Bedtime calm** (dimmer colors, softer and slower),
 - Screen stays awake while playing.
 
 A web page can't block every system key (Cmd+Tab on Mac, the Windows key). For a fully sealed device:
-- **Windows**: run Chrome in kiosk mode: `chrome.exe --kiosk https://rroopha-25.github.io/Tinykeys/`
-- **Mac**: `open -a "Google Chrome" --args --kiosk https://rroopha-25.github.io/Tinykeys/`
+- **Windows**: run Chrome in kiosk mode: `chrome.exe --kiosk https://rroopha-25.github.io/Tiny-keys/`
+- **Mac**: `open -a "Google Chrome" --args --kiosk https://rroopha-25.github.io/Tiny-keys/`
 - **iPad**: Settings → Accessibility → Guided Access, then triple-click to start
 - **Android**: Settings → Security → App pinning
 
@@ -82,7 +82,7 @@ It's a single static page with no build step and no data collected. After the fi
 
 1. Push these files to a repo (for example `tiny-keys`).
 2. Repo → **Settings → Pages** → Source: **Deploy from a branch**, Branch: `main`, folder `/ (root)`.
-3. After a minute it's live at `https://rroopha-25.github.io/Tinykeys/`.
+3. After a minute it's live at `https://rroopha-25.github.io/Tiny-keys/`.
 
 ### Files
 
