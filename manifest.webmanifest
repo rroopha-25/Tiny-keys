@@ -1,0 +1,14 @@
+{
+  "name": "Tiny Keys",
+  "short_name": "Tiny Keys",
+  "description": "A safe keyboard playground for toddlers: letters, counting, animals, shapes and music.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#141c4d",
+  "theme_color": "#141c4d",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}
