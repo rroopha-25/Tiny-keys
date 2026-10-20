@@ -35,8 +35,8 @@ Tiny Keys turns that urge to bang on keys into something good:
 
 | Key | What happens |
 | --- | --- |
-| Letters | Big letter + picture, voice says "ay is for Apple". Each press of the same letter shows the next word (Apple, Ant, Airplane). |
-| Numbers 1–9, 0 | Counts things: "Three! One, two, three. Three ducks!" with a pop for each one. 0 counts to ten. |
+| Letters | Big letter + picture, and the voice says it once: "B is for Bus!" Each press of the same letter shows the next word (Ball, Bee, Banana, Bus). |
+| Numbers 1–9, 0 | Counts out loud, and one thing drops onto the screen on each number: "One… two… three ducks!" 0 counts to ten. |
 | Space bar | An animal and its sound: "The cow says moo!" |
 | Enter | Fireworks and a happy chord |
 | Anything else | A colored shape: "Blue star!" |
@@ -44,7 +44,7 @@ Tiny Keys turns that urge to bang on keys into something good:
 
 ### The voice
 
-Every spoken line is a pre-recorded clip in `voice/`: about 240 short MP3s made with the open-source [Kokoro](https://github.com/hexgrad/kokoro) neural voice (Apache 2.0). Each clip is brightened slightly and loudness-leveled. Clips play louder than the music, and the music dips while the voice talks, so every word comes through clearly. If a clip can't load, the laptop's built-in voice reads the line instead; grown-ups can also switch to "Laptop voice" in the controls.
+Every spoken line is pre-recorded with the open-source [Kokoro](https://github.com/hexgrad/kokoro) neural voice (Apache 2.0), using a blend of two voices chosen for a lively, clear delivery. Letter names are set by pronunciation, so "A" is always said "ay". All 254 clips are packed into one small audio track embedded inside `index.html`, so the whole game is a single file. Clips play louder than the music, and the music dips while the voice talks, so every word comes through clearly. If a clip can't load, the laptop's built-in voice reads the line instead; grown-ups can also switch to "Laptop voice" in the controls.
 
 Every key also plays a note on the chosen instrument, so mashing sounds musical (it's tuned to the pentatonic scale, Raga Mohanam, so no combination ever sounds wrong).
 
@@ -86,8 +86,7 @@ It's a single static page with no build step and no data collected. After the fi
 
 ### Files
 
-- `index.html` – the whole app (HTML, CSS, JS; music is synthesized live)
+- `index.html` – the whole app, including the voice (music is synthesized live)
 - `manifest.webmanifest`, `icon.svg` – installable app
 - `sw.js` – offline support
-- `voice/` – the recorded voice clips (upload this folder too)
-- `screenshots/` – pictures used in this README
+- `*.jpg` – screenshots used in this README

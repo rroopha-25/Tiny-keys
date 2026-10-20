@@ -1,5 +1,5 @@
 // Keeps Tiny Keys working offline after the first visit.
-const CACHE = 'tiny-keys-v4';
+const CACHE = 'tiny-keys-v5';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icon.svg'];  // voice clips are cached as they play
 
 self.addEventListener('install', e => {
